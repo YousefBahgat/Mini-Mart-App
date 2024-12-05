@@ -148,9 +148,7 @@ The video showcases features like product browsing, adding to a cart, managing c
 
 ### Download the APK
 
-You can download the latest APK of the app from the link below:
-
-[Download APK](https://www.mediafire.com/file/nrbs6yif8ufswkf/mini-mart-app.apk/file)
+You can download the latest APK of the app from the link: [Download APK](https://www.mediafire.com/file/nrbs6yif8ufswkf/mini-mart-app.apk/file)
 
 The APK was built with the following version information:
 - **Build Name**: 1.0
