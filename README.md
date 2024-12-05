@@ -14,11 +14,11 @@ A Flutter-based Mini Shop application that demonstrates state management, API in
 
 ### Steps to Run
 1. Clone the repository:
-     Clone the repository to your local machine
+   - Clone the repository to your local machine
    ```bash
    git clone https://github.com/YousefBahgat/Mini-Mart-App/
    ```
-     Navigate into the project directory
+   - Navigate into the project directory
    ```bash
    cd Mini-Mart-App
    ```
@@ -141,10 +141,25 @@ lib/
 
 ## 📽️ Demo Video
 
-You can view the app's demo video [here](https://drive.google.com/drive/folders/your-google-drive-link).  
+You can view the app's demo video [here]([https://drive.google.com/drive/folders/your-google-drive-link](https://drive.google.com/file/d/1JTDwajg6h6f2Qznp68LHIs7N9dZdaOZP/view?usp=sharing)).  
 The video showcases features like product browsing, adding to a cart, managing cart items, and search functionality.
 
 ---
+
+### Download the APK
+
+You can download the latest APK of the app from the link below:
+
+[Download APK](https://www.mediafire.com/file/nrbs6yif8ufswkf/mini-mart-app.apk/file)
+
+The APK was built with the following version information:
+- **Build Name**: 1.0
+- **Build Number**: 1
+
+Simply install the APK on your Android device to try out the app.
+
+--- 
+
 ### License
 
 This app is open-source and available under the [MIT License](LICENSE).
