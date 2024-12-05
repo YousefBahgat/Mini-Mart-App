@@ -141,7 +141,7 @@ lib/
 
 ## 📽️ Demo Video
 
-You can view the app's demo video [here]([https://drive.google.com/drive/folders/your-google-drive-link](https://drive.google.com/file/d/1JTDwajg6h6f2Qznp68LHIs7N9dZdaOZP/view?usp=sharing) ).  
+You can view the app's demo video [here](https://drive.google.com/file/d/1JTDwajg6h6f2Qznp68LHIs7N9dZdaOZP/view?usp=sharing).  
 The video showcases features like product browsing, adding to a cart, managing cart items, and search functionality.
 
 ---
