@@ -15,9 +15,16 @@ A Flutter-based Mini Shop application that demonstrates state management, API in
 ### Steps to Run
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
-   cd <project_directory>
+   # Clone the repository to your local machine
+   git clone https://github.com/YousefBahgat/Mini-Mart-App/
+   # Navigate into the project directory
+   cd Mini-Mart-App
    ```
+- Before running the app, make sure that the following permission is added to your `AndroidManifest.xml` file to allow internet access:
+```xml
+<uses-permission android:name="android.permission.INTERNET"/>
+# This permission is required for the app to fetch data from the internet.
+```
 2. Install dependencies:
    ```bash
    flutter pub get
@@ -70,7 +77,7 @@ A Flutter-based Mini Shop application that demonstrates state management, API in
 
 ## 🛠️ Libraries Used
 
-Here’s a list of the additional libraries used in this project:
+Here’s a list of libraries used in this project:
 
 | Library                | Version  | Purpose                                           |
 |------------------------|----------|---------------------------------------------------|
@@ -83,9 +90,25 @@ Here’s a list of the additional libraries used in this project:
 | `hive_flutter`         | ^1.1.0   | Flutter-specific extensions for Hive.            |
 
 For more details on each library, refer to their [pub.dev](https://pub.dev) documentation.
-
 ---
+### App Icon
 
+The app icon is set using the `flutter_launcher_icons` package. The configuration is specified in the `pubspec.yaml` file, which allows the app to have a custom launcher icon on both Android and iOS platforms. 
+
+Here’s the configuration used in the project:
+
+```yaml
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/appicon.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/appicon.png"
+# The package generates the necessary icon sizes for both platforms, and the image located at assets/appicon.png is used as the icon for the app.
+```
+---
 ## 📝 API Endpoints Used
 
 1. **Fetch all products**:
@@ -106,7 +129,7 @@ Here’s an overview of the folder structure:
 lib/
 ├── models/             # Data models (e.g., CartItem, Product).
 ├── screens/            # UI screens (Product List, Details, Cart).
-├── cubit/              # State management logic (e.g., ProductCubit, CartCubit).
+├── cubits/              # State management logic (e.g., ProductCubit, CartCubit).
 ├── services/           # API integration using Dio.
 ├── widgets/            # Reusable UI components.
 └── main.dart           # App entry point.
@@ -117,17 +140,11 @@ lib/
 ## 📽️ Demo Video
 
 You can view the app's demo video [here](https://drive.google.com/drive/folders/your-google-drive-link).  
-The video showcases features like product browsing, adding to cart, managing cart items, and search functionality.
+The video showcases features like product browsing, adding to a cart, managing cart items, and search functionality.
 
 ---
+### License
 
-## 🎯 Evaluation Highlights
-
-This project demonstrates:
-- **Efficient State Management**: Using Cubit/BLoC to manage app state effectively.
-- **API Integration**: Fetching data with error handling using Dio.
-- **Local Storage**: Implementing persistent cart storage with Hive.
-- **Search Functionality**: Local filtering with real-time updates.
-- **UI/UX**: Clean, functional, and responsive user interface.
-
+This app is open-source and available under the [MIT License](LICENSE).
+---
 Feel free to explore, customize, and improve upon this project! 😊
