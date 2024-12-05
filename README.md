@@ -92,6 +92,7 @@ Here’s a list of libraries used in this project:
 | `hive_flutter`         | ^1.1.0   | Flutter-specific extensions for Hive.            |
 
 For more details on each library, refer to their [pub.dev](https://pub.dev) documentation.
+
 ---
 ### App Icon
 
