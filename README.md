@@ -163,4 +163,3 @@ Simply install the APK on your Android device to try out the app.
 This app is open-source and available under the [MIT License](LICENSE).
 
 ---
-Feel free to explore, customize, and improve upon this project! 😊
