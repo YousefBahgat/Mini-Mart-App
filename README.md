@@ -14,16 +14,16 @@ A Flutter-based Mini Shop application that demonstrates state management, API in
 
 ### Steps to Run
 1. Clone the repository:
-    # Clone the repository to your local machine
+     Clone the repository to your local machine
    ```bash
    git clone https://github.com/YousefBahgat/Mini-Mart-App/
    ```
-    # Navigate into the project directory
+     Navigate into the project directory
    ```bash
    cd Mini-Mart-App
    ```
 - Before running the app, make sure that the following permission is added to your `AndroidManifest.xml` file to allow internet access:
-# This permission is required for the app to fetch data from the internet.
+- This permission is required for the app to fetch data from the internet.
 ```xml
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
@@ -99,7 +99,7 @@ For more details on each library, refer to their [pub.dev](https://pub.dev) docu
 The app icon is set using the `flutter_launcher_icons` package. The configuration is specified in the `pubspec.yaml` file, which allows the app to have a custom launcher icon on both Android and iOS platforms. 
 
 Here’s the configuration used in the project:
-# The package generates the necessary icon sizes for both platforms, and the image located at assets/appicon.png is used as the icon for the app
+- The package generates the necessary icon sizes for both platforms, and the image located at assets/appicon.png is used as the icon for the app
 ```yaml
 flutter_launcher_icons:
   android: "launcher_icon"
